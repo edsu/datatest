@@ -7,5 +7,6 @@ setup(
     author_email="ehs@pobox.com",
     packages=['datatest'],
     description="Example of bundling data with a python package",
+    install_requires=['pandas'],
     package_data={"datatest": ["buildings.csv"]},
 )
